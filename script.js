@@ -15,3 +15,4 @@ function senha() {
 function soma() {
     console.log('qualquer coisa')
 }
+

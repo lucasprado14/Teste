@@ -36,7 +36,27 @@ button:hover{
     cursor: pointer;
 }
 
-div{
+div:nth-of-type(1){
     border: 5px solid rgb(235, 141, 33);
     border-radius: 20px;
+}
+
+#mensagem{
+    display:none;
+    background: #f1f1f1;
+    position: absolute;
+    top: 200px; left: 1000px;
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px inset;
+}
+
+.valido {
+    color: rgb(0, 255, 0);
+    position: relative;
+    left: 40px;
+    content: &#10004;;
+}
+.invalido {
+      color: red;
 }

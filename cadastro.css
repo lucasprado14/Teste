@@ -26,6 +26,9 @@ h1, h2{
     color: rgb(235, 141, 33);
     text-align: center;
 }
+#sucesso{
+    background-color: ivory;
+}
 label{
     display: block;
     margin: 10px 0px;

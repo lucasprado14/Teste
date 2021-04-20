@@ -55,3 +55,11 @@ senha.onkeyup = function () {
     }
 
 }
+// A validação de não repetir a mesma sequencia não funcionou
+// Segui o raciocinio de que deveria pegar cada trecho da senha e
+// comparar com a senha completa, usando um loop. Este fragmento 
+// que seria comparado teria o tamanho de no minimo 2 caracteres, 
+// até um máximo de metade do tamanho total da senha, pois não 
+// tem como haver uma repetição de um termo maior que a metade.
+// Entretanto, não obtive sucesso ao isolar e fazer a comparação
+// destes elementos. 

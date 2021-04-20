@@ -1,14 +1,28 @@
-body{
-    background-color: white;
+html{
+    background: linear-gradient(to bottom right,rgb(248, 150, 21), rgb(218, 218, 169));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+}
+.container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
 }
 .bloco{
     background-color: rgba(253, 253, 224, 0.726);
     width: 400px;
     margin: auto;
     padding: 20px;
-    
+    box-shadow: 0 2em 5em 0.5em  rgb(199, 89, 25);
 }
-h1{
+h1, h2{
     color: rgb(235, 141, 33);
     text-align: center;
 }
@@ -36,27 +50,30 @@ button:hover{
     cursor: pointer;
 }
 
-div:nth-of-type(1){
+#caixa{
     border: 5px solid rgb(235, 141, 33);
     border-radius: 20px;
 }
 
-#mensagem{
+#mensagem{  
     display:none;
     background: #f1f1f1;
     position: absolute;
-    top: 200px; left: 1000px;
+    top: 400px; left: 1000px;
     padding: 20px;
     margin-top: 10px;
-    border: 2px inset;
+    border: 2px inset;  
 }
 
 .valido {
-    color: rgb(0, 255, 0);
+    color: #52b788;
     position: relative;
     left: 40px;
     content: &#10004;;
 }
 .invalido {
-      color: red;
+      color: #e71d36;
+}
+footer{
+    
 }

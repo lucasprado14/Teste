@@ -1,6 +1,6 @@
 # Teste de cadastro
 
-Para executar o código, após baixar, basta executar o arquivo .httml.
+Para executar o código, após baixar, basta executar o arquivo "cadastro.httml".
 A página de cadastro será exibida.
 
 Uma pequena animação no botão "Cadastrar" deve ocorrer ao posicionar o cursor sobre o mesmo.

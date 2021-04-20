@@ -12,35 +12,37 @@
 <body>
 
     <form action="/semservidor">
-        <div class="bloco">
-            <h1>Cadastre-se</h1>
-
-            <section>
-                <label for="nome">Nome Completo</label>
-                <input type="text" " id=" nome" placeholder="Nome" required>
-            </section>
-            <section>
-                <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="E-mail" required>
-            </section>
-            <section>
-                <label for="senha">Senha</label>
-                <input type="password" id="pw" placeholder="Senha"
-                    title="Deve conter de 8 a 14 caracteres, uma letra maiuscula, uma minuscula e um caractere especial"
-                    required pattern="(?=^.{8,14}$)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" />
-            </section>
-            <button>Cadastrar</button>
-        </div>
-        <div id="mensagem">
-            <h2>A senha deve conter:</h2>
-            <p id="minuscula" class="invalido">Letra minúscula</p>
-            <p id="maiuscula" class="invalido">Letra maiúscula</p>
-            <p id="numero" class="invalido">Um número</p>
-            <p id="tamanho" class="invalido">Entre 8 e 14 caracteres</p>
-            <p id="caractere" class="invalido">Um caractere especial</p>
+        <div class="container">
+            <div id="caixa" class="bloco">
+                <h1>Cadastre-se</h1>
+                <section>
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" " id=" nome" placeholder="Nome" required>
+                </section>
+                <section>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="E-mail" required>
+                </section>
+                <section>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="pw" placeholder="Senha"
+                        title="Deve conter de 8 a 14 caracteres, uma letra minuscula, uma maiuscula e um caractere especial"
+                        required pattern="(?=^.{8,14}$)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" />
+                </section>
+                <button>Cadastrar</button>
+            </div>
+            <div id="mensagem">
+                <h2>A senha deve conter:</h2>
+                <p id="minuscula" class="invalido">Letra minúscula</p>
+                <p id="maiuscula" class="invalido">Letra maiúscula</p>
+                <p id="numero" class="invalido">Um número</p>
+                <p id="tamanho" class="invalido">Entre 8 e 14 caracteres</p>
+                <p id="caractere" class="invalido">Um caractere especial</p>
+            </div>
         </div>
     </form>
     <script src="script.js"></script>
 </body>
+
 
 </html>
